@@ -6,8 +6,7 @@ Implements http://uniformjs.com/ as a rails gem with default theme.
 
 Add this line to your application's Gemfile:
 
-gem 'xitec_core_vendor_gui_uniform', git: 'git://github.com/x-itec/xitec_core_vendor_gui_uniform.git'
-
+    gem 'xitec_core_vendor_gui_uniform', git: 'git://github.com/x-itec/xitec_core_vendor_gui_uniform.git'
     gem 'xitec_core_vendor_gui_uniform'
 
 And then execute:
@@ -17,6 +16,14 @@ And then execute:
 Init assets:
 
     $ rails g xitec_core_vendor_gui_uniform:install
+
+application.js
+
+    //= require jquery.uniform.js
+
+application.css
+
+
 
 
 Or install it yourself as: (currently not available)
