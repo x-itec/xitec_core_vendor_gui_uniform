@@ -12,7 +12,12 @@ gem 'xitec_core_vendor_gui_uniform', git: 'git://github.com/x-itec/xitec_core_ve
 
 And then execute:
 
-    $ bundle
+    $ bundle install
+
+Init assets:
+
+    $ rails g xitec_core_vendor_gui_uniform:install
+
 
 Or install it yourself as: (currently not available)
 

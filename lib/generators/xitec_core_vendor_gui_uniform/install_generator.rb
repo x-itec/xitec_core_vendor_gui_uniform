@@ -6,7 +6,7 @@ module XitecCoreVendorGuiUniform
     desc "This generator installs uniform assets"
 
     def add_assets
-      directory "assets", "vendor/assets"
+      directory "vendor/assets", "vendor/assets"
     end
 
   end
