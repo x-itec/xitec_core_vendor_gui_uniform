@@ -13,6 +13,14 @@ And then execute:
 
     $ bundle install
 
+
+
+Or install it yourself as: (currently not available)
+
+    $ gem install xitec_core_vendor_gui_uniform
+
+## Usage
+
 Init assets:
 
     $ rails g xitec_core_vendor_gui_uniform:install
@@ -23,14 +31,12 @@ application.js
 
 application.css
 
+    *= require uniform.default.css
 
+apply the mod to all fields as jquery script
 
-
-Or install it yourself as: (currently not available)
-
-    $ gem install xitec_core_vendor_gui_uniform
-
-## Usage
+    // Style everything
+    $("select, input, a.button, button").uniform();
 
 
 
