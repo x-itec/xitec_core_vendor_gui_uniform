@@ -7,6 +7,7 @@ module XitecCoreVendorGuiUniform
 
     def add_assets
       directory "vendor/assets", "vendor/assets"
+      directory "assets", "app/assets"
     end
 
   end
